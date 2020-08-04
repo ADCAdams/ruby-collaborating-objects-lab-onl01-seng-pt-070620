@@ -29,7 +29,7 @@ class Song
   
   def artist_name=(artist_name_string)
      new_artist_obj = Artist.find_or_create_by_name(artist_name_string)
-     new_artist_obj
+     self.artist = new_artist_obj
   end
   
 end 
