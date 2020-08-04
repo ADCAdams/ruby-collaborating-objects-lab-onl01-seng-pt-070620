@@ -21,8 +21,8 @@ class Song
     
     new_song = Song.new(new_name)
     
-    
-    new_song.artist = new_artist
+    Arist.find_or_create_by_name(new_artist)
+
     new_song
     #binding.pry
   end
