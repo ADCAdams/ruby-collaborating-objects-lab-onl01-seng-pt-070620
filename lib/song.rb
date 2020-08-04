@@ -27,5 +27,8 @@ class Song
     #binding.pry
   end
   
+  def artist_name=(artist_name_string)
+    
+  end
   
 end 
