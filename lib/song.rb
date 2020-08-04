@@ -20,6 +20,8 @@ class Song
     new_artist = string_array[0]
     
     new_song = Song.new(new_name)
+    
+    
     new_song.artist = new_artist
     new_song
     #binding.pry
